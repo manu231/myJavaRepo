@@ -9,6 +9,7 @@ public class RemoveDuplicatesUnsortedArray {
 		int [] temp = new int [arr.length];
 		int j=0;
 		Arrays.sort(arr);
+		System.out.println("Added to see changes in Jenkins");
 		for(int i=0; i<arr.length-1;i++) {
 			if(arr[i] !=arr[i+1]) {
 				arr[j++] = arr[i];
@@ -23,5 +24,5 @@ public class RemoveDuplicatesUnsortedArray {
 		}
 
 	}
-
+  
 }
